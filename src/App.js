@@ -4,31 +4,42 @@ import Home from "./pages/Home";
 import Category from "./pages/Category";
 import Contract from "./pages/Contract";
 import "./App.scss";
+import { EmbedSDK } from "@epnsproject/frontend-sdk-staging";
 
 const BASE_URL = "https://backend-kovan.epns.io/apis";
-const CHANNEL_ADDRESS = "0x94c3016ef3e503774630fC71F59B8Da9f7D470B7";
+
+// EPNS Channel
+const CHANNEL_ADDRESS = "0x266067057613Cb64B79967A00Aa2059687aF86ba";
+
+// useEffect(() => {
+//   if (account) { // 'your connected wallet address'
+//     EmbedSDK.init({
+//       headerText: 'Hello DeFi', // optional
+//       targetID: 'sdk-trigger-id', // mandatory
+//       appName: 'consumerApp', // mandatory
+//       user: account, // mandatory
+//       viewOptions: {
+//           type: 'sidebar', // optional [default: 'sidebar', 'modal']
+//           showUnreadIndicator: true, // optional
+//           unreadIndicatorColor: '#cc1919',
+//           unreadIndicatorPosition: 'bottom-right',
+//       },
+//       theme: 'light',
+//       onOpen: () => {
+//         console.log('-> client dApp onOpen callback');
+//       },
+//       onClose: () => {
+//         console.log('-> client dApp onClose callback');
+//       }
+//     });
+//   }
+
+//   return () => {
+//     EmbedSDK.cleanup();
+//   };
+// }, []);
 
 function App() {
-  // const { library, active, account, chainId } = useWeb3React();
-
-  // // create state components to fetch all the notifications.
-  // const [isSubscribed, setIsSubscribed] = useState(false);
-
-  // // channel details
-  // const [channel, setChannel] = useState(null);
-  // // load channel details on start
-  // useEffect(() => {
-  //   if (!account) return;
-  //   // on page load, fetch channel details
-  //   channels.getChannelByAddress(CHANNEL_ADDRESS, BASE_URL).then((data) => {
-  //     setChannel(data);
-  //   });
-  //   // fetch if user is subscribed to channel
-  //   channels.isUserSubscribed(account, CHANNEL_ADDRESS).then((res) => {
-  //     console.log(res);
-  //     setIsSubscribed(res);
-  //   });
-  // }, [account]);
   return (
     <BrowserRouter>
       <Routes>

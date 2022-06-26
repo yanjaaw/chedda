@@ -7,10 +7,10 @@ export default function TopChart({ categoryName, formattedCategoryName }) {
   return (
     <div className="mb-32">
       <h2 className="text-xl font-semibold text-gray-900">
-        Top {formattedCategoryName} NFT Collections
+        Top {formattedCategoryName} Donation Categories
       </h2>
       <p className="mt-2 text-sm text-gray-700">
-        Best performing NFT collections of all time
+        Best performing Borrowers of All Time
       </p>
       <div className="mt-8 flex flex-col">
         <div className="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -28,19 +28,19 @@ export default function TopChart({ categoryName, formattedCategoryName }) {
                     scope="col"
                     className="py-3.5 px-3 text-left text-sm font-semibold text-gray-900"
                   >
-                    Collection
+                    Category
                   </th>
                   <th
                     scope="col"
                     className="py-3.5 px-3 text-left text-sm font-semibold text-gray-900"
                   >
-                    Total Volume
+                    Total Borrowed
                   </th>
                   <th
                     scope="col"
                     className="py-3.5 px-3 text-left text-sm font-semibold text-gray-900"
                   >
-                    Total Sales
+                    Total Given Back
                   </th>
                   <th
                     scope="col"

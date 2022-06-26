@@ -3,7 +3,7 @@ export default function WhaleChart({ name, whales }) {
     <div className="mb-32">
       <h2 className="text-xl font-semibold text-gray-900">{name} NFT Whales</h2>
       <p className="mt-2 text-sm text-gray-700">
-        Wallets that hold the most {name} NFTs
+        Wallets that have given the most {name} donations
       </p>
       <div className="mt-8 flex flex-col">
         <div className="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -28,7 +28,7 @@ export default function WhaleChart({ name, whales }) {
                     scope="col"
                     className="py-3.5 px-3 text-left text-sm font-semibold text-gray-900"
                   >
-                    No. NFTs
+                    No. donations
                   </th>
                   <th
                     scope="col"

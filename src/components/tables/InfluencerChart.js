@@ -2,10 +2,10 @@ export default function InfluencerChart({ name, influencers }) {
   return (
     <div className="mb-32">
       <h2 className="text-xl font-semibold text-gray-900">
-        Active {name} NFT Influencers
+        Fastest {name} tier builders
       </h2>
       <p className="mt-2 text-sm text-gray-700">
-        Wallets with most transactions related to {name} NFTs
+        Wallets with most transactions related to {name} borrowing
       </p>
       <div className="mt-8 flex flex-col">
         <div className="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -30,7 +30,7 @@ export default function InfluencerChart({ name, influencers }) {
                     scope="col"
                     className="py-3.5 px-3 text-left text-sm font-semibold text-gray-900"
                   >
-                    No. Transfers
+                    No. Borrows Paid Back
                   </th>
                   <th
                     scope="col"

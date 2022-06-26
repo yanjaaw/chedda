@@ -8,15 +8,7 @@ export default function Contract() {
   const [searchParams, setSearchParams] = useSearchParams();
   const contractAddress = searchParams.get("address");
   const contractName = "Crypto Coven";
-
-  // TODO: query subgraph here
-  // const [result, reexecuteQuery] = useQuery({
-  //   query: SearchPodcastsQuery,
-  //   variables: { category },
-  // });
-  // const { data, fetching, error } = result;
-  // if (data) console.log(data);
-
+  
   return (
     <Layout>
       <div className="max-w-7xl mx-auto px-4 py-16">

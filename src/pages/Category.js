@@ -11,19 +11,11 @@ export default function Category() {
   const formattedCategoryName =
     spacedCategoryName.charAt(0).toUpperCase() + spacedCategoryName.slice(1);
 
-  // TODO: query subgraph here
-  // const [result, reexecuteQuery] = useQuery({
-  //   query: SearchPodcastsQuery,
-  //   variables: { category },
-  // });
-  // const { data, fetching, error } = result;
-  // if (data) console.log(data);
-
   return (
     <Layout>
       <div className="max-w-7xl mx-auto px-4 py-16">
         <h1 className="text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl mb-16">
-          {formattedCategoryName} NFT Movers
+          {formattedCategoryName} Funding Movers
         </h1>
         {/* <p className="text-base text-gray-700">
           Wallets who 
