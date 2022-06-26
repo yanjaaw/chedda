@@ -72,13 +72,13 @@ export default function Home() {
                 />
 
                 <a href={lendee.path} className="focus:outline-none">
-                <span className="absolute inset-0" aria-hidden="true" />
+                  <span className="absolute inset-0" aria-hidden="true" />
                   <p className="text-center text-sm sm:text-base font-medium text-gray-900">
                     {lendee.name}
                   </p>
                 </a>
                 <button class="bg-orange-400 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full">
-                Fund this borrower
+                  Fund this borrower
 
                 </button>
               </div>
@@ -103,17 +103,17 @@ export default function Home() {
                 </div>
               ))}
             </div> */}
-                  <div className="max-w-7xl mx-auto px-4 py-16">
-        <div className="text-center">
-          <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-            <span className="block xl:inline">How It Works</span>{" "}
-          </h1>
-          <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-            With CHEDDA’ 🧀 you can borrow cash for whatever.
-            Pay it back, build your credit, and borrow more.
+          <div className="max-w-7xl mx-auto px-4 py-16">
+            <div className="text-center">
+              <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                <span className="block xl:inline">How It Works</span>{" "}
+              </h1>
+              <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                With CHEDDA’ 🧀 you can borrow cash for whatever.
+                Pay it back, build your credit, and borrow more.
 
-          </p>
-        </div>
+              </p>
+            </div>
           </div>
         </div>
       </div>
