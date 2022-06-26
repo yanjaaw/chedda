@@ -36,12 +36,12 @@ export default function Home() {
         {/* <div className="mt-8 md:mt-16">
           <form className="sm:flex" onSubmit={handleSubmit}>
             <label htmlFor="search" className="sr-only">
-              Search by contract address
+              Search by category
             </label>
             <input
               id="search"
               type="text"
-              placeholder="Search by contract address"
+              placeholder="Search by category"
               value={inputVal}
               onChange={(e) => setInputVal(e.target.value)}
               required
@@ -86,9 +86,9 @@ export default function Home() {
           </div>
 
           <div className="mt-12 md:mt-24">
-            <h2 className="text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl mb-8">
+            {/* <h2 className="text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl mb-8">
               Invest $20 into...
-            </h2>
+            </h2> */}
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
               {lendees.map((lendee) => (
                 <div
