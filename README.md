@@ -1,14 +1,21 @@
-# Live Figma Walkthrough
+## Live Figma Walkthrough
 
 [Chedda Mocks](https://www.figma.com/proto/tgTSJRZYAtp5WDgHUfGHl4/Chedda-Mocks?node-id=2%3A1505&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A1505&show-proto-sidebar=1) for landing page view.
 
-## Deploy Your Own
+## Tech used
 
-Deploy your own Create React App project with Vercel.
+#### Polygon
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
+#### STORJ
 
-_Live Example: https://create-react-template.vercel.app/_
+#### Tatum for Polygon
+
+#### Vercel
+Deployed my own Create React App project with Vercel.
+
+[![Deployed with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
+
+_Live Example: https://chedda-ochre.vercel.app/_
 
 ## Available Scripts
 
