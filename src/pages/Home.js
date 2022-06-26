@@ -23,7 +23,7 @@ export default function Home() {
         <div className="text-center">
           <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
             <span className="block xl:inline">Get Crypto, Build Credit</span>{" "}
-            <span className="block text-indigo-600 xl:inline">
+            <span className="block text-orange-400 xl:inline">
               - a win-win solution for both lenders and borrowers.
             </span>
           </h1>
@@ -67,18 +67,20 @@ export default function Home() {
                 key={lendee.id}
                 className="relative rounded-lg border border-gray-300 bg-white px-3 py-6 sm:px-6 sm:py-12 shadow-sm text-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
               >
-                {/* <img src={'https://link.us1.storjshare.io/raw/jx3y3skg2hjy4suzwskjmhjbfv5a/cakes/bubbles.jpeg'}
-                  className="rounded-full"
-                /> */}
                 <img src={lendee.image}
                   className="rounded-full"
                 />
+
                 <a href={lendee.path} className="focus:outline-none">
-                  <span className="absolute inset-0" aria-hidden="true" />
+                <span className="absolute inset-0" aria-hidden="true" />
                   <p className="text-center text-sm sm:text-base font-medium text-gray-900">
                     {lendee.name}
                   </p>
                 </a>
+                <button class="bg-orange-400 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full">
+                Fund this borrower
+
+                </button>
               </div>
             ))}
           </div>
@@ -114,7 +116,7 @@ const lendees = [
     id: 1,
     name: "Yänjaa",
     image: "https://link.us1.storjshare.io/raw/jx3y3skg2hjy4suzwskjmhjbfv5a/cakes/bubbles.jpeg",
-    // path: "lendee?q=Yanjaa"
+    path: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     wallet: "0x96dC73c8B5969608C77375F085949744b5177660"
   },
   {

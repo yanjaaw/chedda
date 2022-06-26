@@ -1,6 +1,6 @@
-# Create React App
+# Live Figma Walkthrough
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+[Chedda Mocks](https://www.figma.com/proto/tgTSJRZYAtp5WDgHUfGHl4/Chedda-Mocks?node-id=2%3A1505&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A1505&show-proto-sidebar=1) for landing page view.
 
 ## Deploy Your Own
 
