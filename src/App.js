@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Category from "./pages/Category";
 import Contract from "./pages/Contract";
 import "./App.scss";
+// import { TatumPolSDK } from '@tatumio/polygon'
 import { EmbedSDK } from "@epnsproject/frontend-sdk-staging";
 
 const BASE_URL = "https://backend-kovan.epns.io/apis";
